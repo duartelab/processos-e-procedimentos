@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+  </marker>
+</defs>
+<rect width="1200" height="430" fill="#FFFFFF"/>
+<text x="50" y="52" text-anchor="start" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="26" font-weight="700" fill="#0F172A">Ciclo de decisão</text>
+<text x="50" y="78" text-anchor="start" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="14" font-weight="400" fill="#64748B">Toda ação externa percorre o mesmo caminho, com registro e possibilidade de reversão.</text>
+<rect x="30" y="150" width="180" height="80" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="120.0" y="176" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Proposta</text>
+<text x="120.0" y="195" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">agente prepara</text>
+<rect x="260" y="150" width="180" height="80" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="350.0" y="176" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Aprovação</text>
+<text x="350.0" y="195" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">Raquel decide</text>
+<rect x="490" y="150" width="180" height="80" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="580.0" y="176" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Execução</text>
+<text x="580.0" y="195" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">ferramenta age</text>
+<rect x="720" y="150" width="180" height="80" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="810.0" y="176" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Registro</text>
+<text x="810.0" y="195" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">log e idempotência</text>
+<rect x="950" y="150" width="180" height="80" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="1040.0" y="176" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Auditoria</text>
+<text x="1040.0" y="195" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">revisão e reversão</text>
+<line x1="210" y1="190" x2="260" y2="190" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="440" y1="190" x2="490" y2="190" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="670" y1="190" x2="720" y2="190" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="900" y1="190" x2="950" y2="190" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 1040 230 L 1040 300 L 120 300 L 120 230" fill="none" stroke="#94A3B8" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<text x="580" y="325" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" font-weight="400" fill="#64748B">retorno com aprendizado</text>
+<text x="50" y="390" text-anchor="start" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="13" font-weight="500" fill="#0F172A">Sem registro, não há auditoria. Sem reversão, não há confiança.</text>
+</svg>

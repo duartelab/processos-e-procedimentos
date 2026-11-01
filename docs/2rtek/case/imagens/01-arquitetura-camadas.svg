@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+  </marker>
+</defs>
+<rect width="1200" height="640" fill="#FFFFFF"/>
+<text x="50" y="52" text-anchor="start" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="26" font-weight="700" fill="#0F172A">Arquitetura em quatro camadas</text>
+<text x="50" y="78" text-anchor="start" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="14" font-weight="400" fill="#64748B">Cada camada tem uma responsabilidade e um contrato claro com a seguinte.</text>
+<rect x="40" y="100" width="1120" height="105" rx="14" fill="#FFFFFF" stroke="#0F766E" stroke-opacity="0.25"/>
+<rect x="40" y="100" width="160" height="105" rx="14" fill="#ECFDF5"/>
+<text x="120" y="147" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="16" font-weight="700" fill="#0F766E">Presença</text>
+<text x="120" y="168" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="11" font-weight="400" fill="#64748B">camada</text>
+<rect x="220" y="118" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="330.0" y="144" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Site</text>
+<text x="330.0" y="163" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">6 idiomas</text>
+<rect x="455" y="118" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="565.0" y="144" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">SEO local</text>
+<text x="565.0" y="163" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">páginas por cidade</text>
+<rect x="690" y="118" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="800.0" y="144" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Oferta</text>
+<text x="800.0" y="163" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">serviços e produtos</text>
+<rect x="925" y="118" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="1035.0" y="144" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Legal</text>
+<text x="1035.0" y="163" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">termos e privacidade</text>
+<rect x="40" y="225" width="1120" height="105" rx="14" fill="#FFFFFF" stroke="#1D4ED8" stroke-opacity="0.25"/>
+<rect x="40" y="225" width="160" height="105" rx="14" fill="#EFF6FF"/>
+<text x="120" y="272" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="16" font-weight="700" fill="#1D4ED8">Transação</text>
+<text x="120" y="293" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="11" font-weight="400" fill="#64748B">camada</text>
+<rect x="220" y="243" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="330.0" y="269" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Checkout</text>
+<text x="330.0" y="288" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">Stripe</text>
+<rect x="455" y="243" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="565.0" y="269" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Assinatura</text>
+<text x="565.0" y="288" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">planos e preços</text>
+<rect x="690" y="243" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="800.0" y="269" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Webhook</text>
+<text x="800.0" y="288" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">confirmação</text>
+<rect x="925" y="243" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="1035.0" y="269" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Fila</text>
+<text x="1035.0" y="288" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">idempotência</text>
+<rect x="40" y="350" width="1120" height="105" rx="14" fill="#FFFFFF" stroke="#6D28D9" stroke-opacity="0.25"/>
+<rect x="40" y="350" width="160" height="105" rx="14" fill="#F5F3FF"/>
+<text x="120" y="397" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="16" font-weight="700" fill="#6D28D9">Aquisição</text>
+<text x="120" y="418" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="11" font-weight="400" fill="#64748B">camada</text>
+<rect x="220" y="368" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="330.0" y="394" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Prospecção</text>
+<text x="330.0" y="413" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">listas e validação</text>
+<rect x="455" y="368" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="565.0" y="394" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Cadências</text>
+<text x="565.0" y="413" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">sequências</text>
+<rect x="690" y="368" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="800.0" y="394" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">E-mail</text>
+<text x="800.0" y="413" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">Resend</text>
+<rect x="925" y="368" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="1035.0" y="394" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Descadastro</text>
+<text x="1035.0" y="413" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">conformidade</text>
+<rect x="40" y="475" width="1120" height="105" rx="14" fill="#FFFFFF" stroke="#B45309" stroke-opacity="0.25"/>
+<rect x="40" y="475" width="160" height="105" rx="14" fill="#FFFBEB"/>
+<text x="120" y="522" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="16" font-weight="700" fill="#B45309">Operação</text>
+<text x="120" y="543" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="11" font-weight="400" fill="#64748B">camada</text>
+<rect x="220" y="493" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="330.0" y="519" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Painel</text>
+<text x="330.0" y="538" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">estado e decisões</text>
+<rect x="455" y="493" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="565.0" y="519" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">n8n</text>
+<text x="565.0" y="538" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">orquestração</text>
+<rect x="690" y="493" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="800.0" y="519" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Agentes</text>
+<text x="800.0" y="538" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">tarefas sob demanda</text>
+<rect x="925" y="493" width="220" height="69" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="1035.0" y="519" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">BI</text>
+<text x="1035.0" y="538" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">métricas</text>
+<text x="50" y="620" text-anchor="start" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" font-weight="400" fill="#64748B">Leitura: a camada de operação observa e controla as três anteriores; nenhuma ação externa acontece sem passar por ela.</text>
+</svg>

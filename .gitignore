@@ -1,0 +1,33 @@
+# Segredos e dados locais — nunca versionar
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Bancos e exportações
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Operação e dados de terceiros
+leads/
+operacao/
+envios/
+clientes/
+contratos/
+
+# Build e lixo
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+*.log
+*.zip
+.DS_Store
+Thumbs.db

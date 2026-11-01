@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+  </marker>
+</defs>
+<rect width="1200" height="690" fill="#FFFFFF"/>
+<text x="50" y="52" text-anchor="start" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="26" font-weight="700" fill="#0F172A">Integration map</text>
+<text x="50" y="78" text-anchor="start" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="14" font-weight="400" fill="#64748B">Tools named by the role they play. No customer data appears in the diagram.</text>
+<rect x="60" y="120" width="190" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="155.0" y="146" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Website</text>
+<text x="155.0" y="165" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">pages and offer</text>
+<rect x="330" y="120" width="190" height="70" rx="10" fill="#EFF6FF" stroke="#1D4ED8" stroke-width="1.5"/>
+<text x="425.0" y="146" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Stripe</text>
+<text x="425.0" y="165" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">checkout and subscription</text>
+<rect x="600" y="120" width="190" height="70" rx="10" fill="#FFFBEB" stroke="#B45309" stroke-width="1.5"/>
+<text x="695.0" y="146" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Human approval</text>
+<text x="695.0" y="165" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">spend · send · price</text>
+<rect x="870" y="120" width="190" height="70" rx="10" fill="#F5F3FF" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="965.0" y="146" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">AI models</text>
+<text x="965.0" y="165" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">local and external</text>
+<rect x="60" y="260" width="190" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="155.0" y="286" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Cloudflare</text>
+<text x="155.0" y="305" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">edge and publishing</text>
+<rect x="600" y="260" width="190" height="70" rx="10" fill="#ECFDF5" stroke="#0F766E" stroke-width="1.5"/>
+<text x="695.0" y="286" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">n8n</text>
+<text x="695.0" y="305" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">orchestration</text>
+<rect x="870" y="260" width="190" height="70" rx="10" fill="#FFFBEB" stroke="#B45309" stroke-width="1.5"/>
+<text x="965.0" y="286" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Dashboard</text>
+<text x="965.0" y="305" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">state and decisions</text>
+<rect x="60" y="540" width="190" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="155.0" y="566" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Content</text>
+<text x="155.0" y="585" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">LinkedIn and articles</text>
+<rect x="330" y="400" width="190" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="425.0" y="426" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Resend</text>
+<text x="425.0" y="445" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">email and events</text>
+<rect x="600" y="420" width="190" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="695.0" y="446" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Queue</text>
+<text x="695.0" y="465" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">idempotency</text>
+<rect x="870" y="420" width="190" height="70" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+<text x="965.0" y="446" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="15" font-weight="600" fill="#0F172A">Metabase</text>
+<text x="965.0" y="465" text-anchor="middle" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" fill="#64748B">BI</text>
+<line x1="155" y1="190" x2="155" y2="260" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="250" y1="155" x2="330" y2="155" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="520" y1="190" x2="600" y2="285" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="695" y1="190" x2="695" y2="260" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="600" y1="155" x2="520" y2="155" stroke="#94A3B8" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<line x1="790" y1="285" x2="870" y2="190" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="790" y1="295" x2="870" y2="295" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="695" y1="330" x2="695" y2="420" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="790" y1="440" x2="870" y2="330" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="965" y1="330" x2="965" y2="420" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="600" y1="315" x2="520" y2="415" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="520" y1="450" x2="600" y2="455" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M 600 300 L 270 300 L 270 575 L 250 575" fill="none" stroke="#94A3B8" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="704" y="232" text-anchor="start" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="11" font-weight="400" fill="#B45309">releases</text>
+<text x="50" y="660" text-anchor="start" font-family="DejaVu Sans, Noto Sans, sans-serif" font-size="12" font-weight="400" fill="#64748B">The approval gate sits between orchestration and any external effect: payment, send, publish or contract.</text>
+</svg>
